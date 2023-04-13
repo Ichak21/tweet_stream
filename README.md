@@ -18,7 +18,7 @@ Il se peut que vous ayez à faire des modifications dans le fichier cassandra/do
 ## Installer le model
 - Télécharger le model : https://drive.google.com/file/d/1Ee9whVScl8eXnEaTD9SORG0IeLN63WH5/view?usp=sharing
 - Mettre le fichier *model_rfc.joblib* dans /kafka/AI_model
-- Pour lancer l'entrainement du model il faudra plannifier une tache sur : /kafka/AI_model/model_entrainement.py
+- Pour lancer l'entraînement du model il faudra planifier une tâche sur : /kafka/AI_model/model_entrainement.py
 Attention : le consumer doit redémarrer pour prendre en compte le nouveau model
   
 ## Lancer le Producer et le Consumer
