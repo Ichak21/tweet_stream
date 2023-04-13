@@ -14,6 +14,10 @@ Il se peut que vous ayez à faire des modifications dans le fichier cassandra/do
 - Sinon remplacer le par le chemin où vous souhaitez stocker vos données de volumétrie Cassandra
   - ![image](https://user-images.githubusercontent.com/75131876/231718502-5073938b-07c9-4420-a5d4-c89ee8e6effb.png)
   - your\path\:/var/lib/cassandra
+
+## Installer le model
+- Telecharger le model : 
+- Mettre le fichier *model_rfc.joblib* dans /kafka/AI_model
   
 ## Lancer le Producer et le Consumer
 
