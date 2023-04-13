@@ -7,19 +7,19 @@
   - soit ../cassandra/
 - lancer la commande `docker compose up -d` afin de lancer vos containers et images dans Docker.
 
-Cela permettra d'insttaller les images/containers sur Docker en se pbasantr sur la configuration des fichiers docker-compose.yaml
+Cela permettra d'installer les images/containers sur Docker en se basant sur la configuration des fichiers docker-compose.yaml
 
 Il se peut que vous ayez à faire des modifications dans le fichier cassandra/docker-compose.yaml :
 - La partie volumétrie dans les nœuds Cassandra peut être commentée.
-- Sinon remplacer le par le chemin où vous souhaitez stocker vos données de volumétrie Cassandra
+- Sinon remplacez-le par le chemin où vous souhaitez stocker vos données de volumétrie Cassandra
   - ![image](https://user-images.githubusercontent.com/75131876/231718502-5073938b-07c9-4420-a5d4-c89ee8e6effb.png)
   - your\path\:/var/lib/cassandra
 
 ## Installer le model
-- Telecharger le model : https://drive.google.com/file/d/1Ee9whVScl8eXnEaTD9SORG0IeLN63WH5/view?usp=sharing
+- Télécharger le model : https://drive.google.com/file/d/1Ee9whVScl8eXnEaTD9SORG0IeLN63WH5/view?usp=sharing
 - Mettre le fichier *model_rfc.joblib* dans /kafka/AI_model
 - Pour lancer l'entrainement du model il faudra plannifier une tache sur : /kafka/AI_model/model_entrainement.py
-Attention : le consummer doit redémarrer pour prendre en compte le nouveaux model
+Attention : le consumer doit redémarrer pour prendre en compte le nouveau model
   
 ## Lancer le Producer et le Consumer
 
